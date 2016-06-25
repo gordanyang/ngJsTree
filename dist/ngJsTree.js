@@ -203,7 +203,9 @@
                     angular.copy(jsTreeSettings, config);
                     var result = JSON.stringify(config);
                     if (config.core) {
-                        config.core.data = scope.treeData;
+                        if(config.core.data==null){
+				config.core.data = scope.treeData;
+			}
                     }
                     else {
                         config.core = { data: scope.treeData };
