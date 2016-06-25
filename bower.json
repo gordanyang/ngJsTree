@@ -1,8 +1,8 @@
 {
-    "name": "ng-js-tree",
+    "name": "gf-ng-js-tree",
     "main": "dist/ngJsTree.js",
     "version": "0.0.8",
-    "homepage": "https://github.com/ezraroi/ngJsTree",
+    "homepage": "https://github.com/gordanyang/ngJsTree",
     "authors": [
         "ezraroi <ezraroi@gmail.com>"
     ],
